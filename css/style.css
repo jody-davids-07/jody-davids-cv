@@ -4,7 +4,38 @@ body {
 }
 
 h1 {
-    font-family: Permanent-Marker;
-    color: black;
-    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    color: azure;
+    text-align: center, ;
+
 }
+
+#navbar {
+    float:top-left;
+    display: inline-block;
+    /* color: #f2f2f2; */
+    background-color: rgb(63, 58, 58) ;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  } 
+  
+  a {
+    color: grey;
+    line-height: 1.2;
+    text-decoration: none;
+  }
+  #navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  #navbar a.active {
+    /* background-color: #4CAF50; */
+    color: white;
+  }
+  #avbar icon{
+  
+    display: none;
+  }
+  
