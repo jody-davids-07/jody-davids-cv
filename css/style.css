@@ -1,25 +1,41 @@
 body {
-    background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/10/Amazing-Binary-Code-Background.jpg);
-    
+	background-color: #42c264;
+	background-image: -webkit-linear-gradient(red,green);
+	background-image:-chrome-linear-gradient(red,green);
+	background-image:-moz-linear-gradient(red,green);
+	background-image:-o-linear-gradient(red,green);
+	background-image:-ms-linear-gradient(red,green);
+  background-image:linear-gradient(red,green);
+
 }
 
 h1 {
     font-family: 'Permanent Marker', cursive;
-    color: azure;
-    text-align: center, ;
+    color: #f0ffff;
+    text-align: center ;
+    padding: 50px;
+    height: 50%;
+    width: 50%;
+    margin-top: 100px;
+    margin-left: 350px;
 
 }
 
 #navbar {
-    float:top-left;
+    float: top-center;
     display: inline-block;
     /* color: #f2f2f2; */
-    background-color: rgb(63, 58, 58) ;
+    /* background-color:rgb(63, 58, 58) ; */
     text-align: center;
-    padding: 14px 16px;
+     /* padding: 100px;  */
     text-decoration: none;
-    font-size: 17px;
+    font-size: 21px;
   } 
+/* .navbar-brand {
+    font-size: 32px;
+    margin-right:50px;
+
+} */
   
   a {
     color: grey;
@@ -38,4 +54,26 @@ h1 {
   
     display: none;
   }
+
+  @keyframes animatedSquare {
+
+    0% {background-colour:red;}
+    25% {background-colour:green;}
+    50% {background-colour:blue;}
+    100% {background-colour:yellow;}
+  
+  }
+
+  #box {
+    width:300px;
+    height:300px;
+    margin-left: 250px;
+    background-color: red;
+    animation-name: amimatedSquare;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  
+  }
+
+
   
