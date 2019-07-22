@@ -214,3 +214,18 @@ h2{
   color: white;
 
 }
+
+#highSchool{
+  margin-top: 50px;
+	float:left;
+	width:35%;
+
+}
+
+.lead {
+	padding: 30px;
+  margin: 30px;
+  float:right;
+	width:60%;
+
+}
