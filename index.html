@@ -18,6 +18,7 @@
      <!-- Place your stylesheet here-->
      <!--<link href="/css/stylesheet.css" rel="stylesheet" type="text/css">-->
      <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+     <!-- MY OWN CSS -->
      <link href="css/style.css" rel="stylesheet" type="text/css">
   </head>
 
@@ -25,6 +26,7 @@
 
     <header>
             <h1>CV of Jody Davids</h1>
+            <h2>I am a  Junior Web Developer</h2>
 
     </header>  
 
@@ -37,7 +39,20 @@
   
       <div class="collapse navbar-collapse" id="navbar">
           <ul class="navbar-nav mr-auto">
+              <div class="wrap">
+                  <div class="cube">
+                    <div class="front">front</div>
+                    <div class="back">back</div>
+                    <div class="top">top</div>
+                    <div class="bottom">bottom</div>
+                    <div class="left">left</div>
+                    <div class="right">right</div>
+                  </div>
+                </div>
               <li class="nav-item active">
+                  <a class="nav-link" href="index.html">HOME<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item ">
                   <a class="nav-link" href="education.html">EDUCATION <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
@@ -46,6 +61,9 @@
               <li class="nav-item">
                 <a class="nav-link" href="about.html">ABOUT</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">CONTACT</a>
+          </li>
               <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="projects.html" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PROJECTS</a>
                   <div class="dropdown-menu" aria-labelledby="dropdown01">
@@ -55,15 +73,11 @@
                   </div>
               </li>
           </ul>
-          <form class="form-inline my-2 my-lg-0">
-              <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-              <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-          </form>
       </div>
   </nav>
   
     <!-- empty div tag for animated square -->
-    <div id="box">image here</div>
+    <div class="box"><img src="img/me.jpg"></div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
