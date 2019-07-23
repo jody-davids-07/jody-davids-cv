@@ -80,6 +80,12 @@ Add additional notes about how to deploy this on a live system -->
 <!-- * [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
 * [Maven](https://maven.apache.org/) - Dependency Management
 * [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds -->
+• Visual Studio Code (url: https://code.visualstudio.com/download)
+
+• The latest version of Google Chrome (url: https://chrome.en.softonic.com/download)
+
+• A github account (url: https://desktop.github.com/)
+
 
 ## Contributing
 
@@ -94,6 +100,7 @@ Add additional notes about how to deploy this on a live system -->
 <!-- * **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project. -->
+Jody Davids -Initial Work
 
 ## License
 
@@ -104,4 +111,6 @@ See also the list of [contributors](https://github.com/your/project/contributors
 <!-- * Hat tip to anyone whose code was used
 * Inspiration
 * etc -->
+
+
 
