@@ -1,18 +1,35 @@
 # Project Title
 
 <!-- One Paragraph of project description goes here -->
+In this project, you will be building your online CV to impress hiring managers at the end of this course when we send out your resumes for placements. Using what you have learned (HTML, CSS, CSS Grid, and Responsive design, create a resume website that presents you well and, at the same time, looks modern and sleek.
 
 ## Getting Started
 
 <!-- These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system. -->
 
+• Create a project folder and name it accordingly e.g: 'your-name-cv'
+
+• Open VScode (or your preferred text editor) on your computer
+
+• Create a new text-file (in your text editor) and save it as 'index.html'
+
+• Save the file
+
+• Find the file in your folder and open it in Chrome to see if it's saved 
+
 ### Prerequisites
 
 <!-- What things you need to install the software and how to install them
 
+
 ```
 Give examples
 ``` -->
+• Visual Studio Code (url: https://code.visualstudio.com/download)
+
+• The latest version of Google Chrome (url: https://chrome.en.softonic.com/download)
+
+• A github account (url: https://desktop.github.com/)
 
 ### Installing
 
@@ -31,6 +48,8 @@ until finished
 ```
 
 End with an example of getting some data out of the system or using it for a little demo -->
+
+
 
 ## Running the tests
 

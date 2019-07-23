@@ -215,17 +215,44 @@ h2{
 
 }
 
-#highSchool{
-  margin-top: 50px;
+#highSchool,
+#Code4CT,
+#Codespace {
+  margin: 50px;
 	float:left;
 	width:35%;
 
 }
 
-.lead {
-	padding: 30px;
+.lead, 
+.Code4CTed,
+.Codespace {
+	padding: 40px;
   margin: 30px;
   float:right;
-	width:60%;
+  /* width:30%; */
+  
+}
 
+ul {
+  margin-left: 50%;
+	list-style-type: none;
+}
+
+/* #code4CT{
+  margin-top: 50px;
+	float:left;
+	width:40%;
+
+} */
+
+/* .code4CTed {
+	padding: 40px;
+  margin: 30px;
+  /* float: right; */
+
+
+
+h4 {
+  display: inline-block;
 }
