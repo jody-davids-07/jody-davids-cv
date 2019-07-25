@@ -33,6 +33,7 @@ h2{
 
 }
 
+/* navbar here */
 #navbar {
     float: top-center;
     display: inline-block;
@@ -62,6 +63,7 @@ h2{
     display: none;
   }
 
+/* animated cube here */
   @keyframes animatedSquare {
 
     0% {background-colour:red;}
@@ -153,17 +155,7 @@ h2{
     perspective-origin: 0 0;
   }
 
-  .box {
-    width: 300px;
-    height:400px;
-    margin-left: 550px;
-    background-color: red;
-    animation-name: amimatedSquare;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-  
-  }
-
+/* paragraph tags */
   p {
     text-align: center ;
     padding:30px;
@@ -202,6 +194,7 @@ h2{
 
 }
 
+/* images for education here */
 #highSchool,
 #Code4CT,
 #Codespace {
@@ -230,7 +223,25 @@ h4 {
   display: inline-block;
 }
 
-/* .container-experience {
-  height: 100vh;
-} */
+/* skills page */
+.aboutContent{
+  display: block;
+}
+.imagesOfLang {
+  display: flex;
+  padding-left: 7.5em;
+}
+.imagesOfLang img{
+  width: 50%;
+}
+.imagesOfLang .htmlImage , .cssImage , .javascriptImage{
+  width: 33%;
+  padding-top: 4.5em
+}
+ .skills{
+  text-align: center;
+  font-size: 3.125em ;
+  text-decoration: underline;
+  text-decoration-color: aqua;
+}
 
