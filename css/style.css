@@ -6,7 +6,6 @@ body {
 	background-image:-o-linear-gradient(red,green);
 	background-image:-ms-linear-gradient(red,green);
   background-image:linear-gradient(red,green);
-  background-repeat: no-repeat; 
   height: 100vh;
 
 }
@@ -15,10 +14,10 @@ h1 {
     font-family: 'Permanent Marker', cursive;
     color: #f0ffff;
     text-align: center ;
-    padding: 40px;
+    padding: 20px;
     height: 50%;
     width: 50%;
-    margin-top: 100px;
+    margin-top: 90px;
     margin-left: 350px;
 
 }
@@ -28,7 +27,7 @@ h2{
     padding:30px;
     height: 50%;
     width: 50%;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-left: 350px;
 
 }
@@ -193,7 +192,12 @@ h2{
   color: white;
 
 }
-
+/* 
+image of myself on homepage */
+.mainPic {
+  align-content: center;
+  margin-left: 40%;
+}
 /* images for education here */
 #highSchool,
 #Code4CT,
@@ -224,11 +228,13 @@ h4 {
 }
 
 /* skills page */
-.aboutContent{
+.skillsContent{
   display: block;
+  margin-top: 40px;
+  height: 100vh;
 }
 .imagesOfLang {
-  display: flex;
+  /* display: flex; */
   padding-left: 7.5em;
 }
 .imagesOfLang img{
@@ -236,12 +242,7 @@ h4 {
 }
 .imagesOfLang .htmlImage , .cssImage , .javascriptImage{
   width: 33%;
-  padding-top: 4.5em
+  padding-top: 4.5em;
 }
- .skills{
-  text-align: center;
-  font-size: 3.125em ;
-  text-decoration: underline;
-  text-decoration-color: aqua;
-}
+
 
