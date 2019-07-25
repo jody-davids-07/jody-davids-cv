@@ -6,7 +6,8 @@ body {
 	background-image:-o-linear-gradient(red,green);
 	background-image:-ms-linear-gradient(red,green);
   background-image:linear-gradient(red,green);
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; 
+  height: 100vh;
 
 }
 
@@ -38,15 +39,10 @@ h2{
     /* color: #f2f2f2; */
     /* background-color:rgb(63, 58, 58) ; */
     text-align: center;
-     /* padding: 100px;  */
+    padding-right: 100%;  
     text-decoration: none;
     font-size: 21px;
   } 
-/* .navbar-brand {
-    font-size: 32px;
-    margin-right:50px;
-
-} */
   
   a {
     color: grey;
@@ -187,15 +183,6 @@ h2{
   text-decoration: none;
 }
 
-/* .fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
-} */
-
 /* Add a hover effect */
 .fa:hover {
   opacity: 0.7;
@@ -239,20 +226,11 @@ ul {
 	list-style-type: none;
 }
 
-/* #code4CT{
-  margin-top: 50px;
-	float:left;
-	width:40%;
-
-} */
-
-/* .code4CTed {
-	padding: 40px;
-  margin: 30px;
-  /* float: right; */
-
-
-
 h4 {
   display: inline-block;
 }
+
+/* .container-experience {
+  height: 100vh;
+} */
+
