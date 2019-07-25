@@ -7,7 +7,7 @@ body {
 	background-image:-ms-linear-gradient(red,green);
   background-image:linear-gradient(red,green);
   height: 100vh;
-
+  color: white;
 }
 
 h1 {
@@ -29,6 +29,7 @@ h2{
     width: 50%;
     margin-top: 20px;
     margin-left: 350px;
+    color: grey;
 
 }
 
@@ -88,7 +89,7 @@ h2{
     position: absolute;
     width: 200px;
     height: 200px;
-    color: rgba(0,0,0,0.5);
+    color: rgb(236, 230, 230);
     
   }
 
